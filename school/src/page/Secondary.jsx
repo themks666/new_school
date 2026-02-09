@@ -1,13 +1,9 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import {
 	FlaskConical,
 	Globe,
-	Cpu,
 	LineChart,
-	Trophy,
 	ArrowLeft,
-	Briefcase,
 	Compass,
 } from "lucide-react";
 import Secondary from "/secondary.jpg";
@@ -33,10 +29,9 @@ const SecondaryLevel = () => {
 
 	return (
 		<div className="bg-white min-h-screen font-sans">
-			
 			<div className="max-w-7xl mx-auto px-6 pt-8">
 				<Link
-					to="/programs"
+					to="/new_school/programs"
 					className="inline-flex items-center text-slate-500 hover:text-violet-600 transition-colors font-medium">
 					<ArrowLeft
 						size={18}
@@ -46,7 +41,6 @@ const SecondaryLevel = () => {
 				</Link>
 			</div>
 
-			
 			<header className="max-w-7xl mx-auto px-6 py-12 lg:py-24">
 				<div className="flex flex-col lg:flex-row gap-16 items-center">
 					<div className="lg:w-1/2">
@@ -74,13 +68,12 @@ const SecondaryLevel = () => {
 								className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-500"
 							/>
 						</div>
-					
+
 						<div className="absolute -top-10 -right-10 w-64 h-64 bg-violet-600/10 rounded-full blur-3xl -z-0"></div>
 					</div>
 				</div>
 			</header>
 
-			
 			<section className="bg-slate-900 py-24 text-white">
 				<div className="max-w-7xl mx-auto px-6 text-center mb-16">
 					<h2 className="text-4xl font-bold mb-4">

@@ -21,7 +21,7 @@ const programs = [
 const Programs = () => {
 	return (
 		<div className="w-full max-w-5xl mx-auto bg-violet-950 rounded-3xl p-6 flex items-center gap-6">
-			{/* Left text */}
+
 			<div className="w-1/3 text-white">
 				<h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
 				<p className="text-sm text-gray-300">
@@ -29,7 +29,6 @@ const Programs = () => {
 				</p>
 			</div>
 
-			{/* Cards */}
 			<div className="flex gap-4 w-2/3">
 				{programs.map((item, index) => (
 					<div

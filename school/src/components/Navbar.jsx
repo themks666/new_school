@@ -7,28 +7,26 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const navLinks = [
-		{name: "Home", path: "/"},
-		{ name: "About Us", path: "/about" },
-		{ name: "Programs", path: "/programs" },
-		{ name: "Academics", path: "/academics" },
-		{ name: "Gallary", path: "/gallery" },
+		{ name: "Home", path: "/new_school" },
+		{ name: "About Us", path: "/new_school/about" },
+		{ name: "Programs", path: "/new_school/programs" },
+		{ name: "Academics", path: "/new_school/academics" },
+		{ name: "Gallary", path: "/new_school/gallery" },
 	];
 
 	return (
 		<nav className="w-full flex justify-center pt-4 sticky top-0 z-50 bg-white/80 backdrop-blur-md">
 			<div className="w-11/12 border-b-2 border-gray-100 rounded-xl bg-white/50 py-4 flex justify-between text-lg items-center shadow-sm">
 				<Link
-					to="/"
+					to="/new_school"
 					className="flex items-center gap-2">
 					<img
 						src={Logo}
 						alt="School Logo"
 						className="h-10 w-auto"
 					/>
-				
 				</Link>
 
-		
 				<div className="hidden md:flex items-center space-x-10">
 					{navLinks.map((link) => (
 						<Link
@@ -40,16 +38,14 @@ const Navbar = () => {
 					))}
 				</div>
 
-	
 				<div className="hidden md:block">
 					<Link
-						to="/contact"
+						to="/new_school/contact"
 						className="px-6 py-2.5 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-all shadow-md shadow-indigo-100">
 						Contact Us
 					</Link>
 				</div>
 
-				
 				<button
 					className="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-lg transition"
 					onClick={() => setIsOpen(!isOpen)}>
@@ -57,7 +53,6 @@ const Navbar = () => {
 				</button>
 			</div>
 
-			
 			{isOpen && (
 				<div className="absolute top-full left-1/2 -translate-x-1/2 w-11/12 bg-white mt-2 rounded-2xl shadow-xl border border-slate-100 p-6 flex flex-col gap-4 md:hidden animate-in fade-in zoom-in duration-200">
 					{navLinks.map((link) => (
@@ -71,7 +66,7 @@ const Navbar = () => {
 					))}
 					<hr className="border-slate-100" />
 					<Link
-						to="/contact"
+						to="/new_school/contact"
 						onClick={() => setIsOpen(false)}
 						className="w-full py-3 bg-indigo-600 text-white text-center rounded-xl font-bold">
 						Contact Us

@@ -37,10 +37,9 @@ const PrimaryEducation = () => {
 
 	return (
 		<div className="bg-white min-h-screen font-sans selection:bg-indigo-100">
-			
 			<div className="max-w-7xl mx-auto px-6 pt-8">
 				<Link
-					to="/programs"
+					to="/new_school/programs"
 					className="group flex items-center text-slate-500 hover:text-indigo-600 transition-colors">
 					<ChevronLeft
 						size={20}
@@ -50,7 +49,6 @@ const PrimaryEducation = () => {
 				</Link>
 			</div>
 
-	
 			<header className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
 				<div className="grid lg:grid-cols-2 gap-12 items-center">
 					<div>
@@ -67,28 +65,29 @@ const PrimaryEducation = () => {
 							learning that encourages students to ask "Why?" and "How?".
 						</p>
 						<div className="flex gap-4">
-							<Link to="/contact" className="bg-indigo-600 text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition">
+							<Link
+								to="/new_school/contact"
+								className="bg-indigo-600 text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition">
 								Apply for Admission
 							</Link>
 						</div>
 					</div>
 
 					<div className="relative">
-									<div className="aspect-[4/3] rounded-[3rem] bg-slate-200 overflow-hidden shadow-2xl relative z-10">
+						<div className="aspect-[4/3] rounded-[3rem] bg-slate-200 overflow-hidden shadow-2xl relative z-10">
 							<img
 								src={Primary}
 								alt="Primary Students"
 								className="w-full h-full object-cover"
 							/>
 						</div>
-				
+
 						<div className="absolute -bottom-6 -right-6 w-48 h-48 bg-emerald-400/20 rounded-full blur-3xl -z-0"></div>
 						<div className="absolute -top-6 -left-6 w-48 h-48 bg-indigo-400/20 rounded-full blur-3xl -z-0"></div>
 					</div>
 				</div>
 			</header>
 
-	
 			<section className="bg-slate-50 py-24">
 				<div className="max-w-7xl mx-auto px-6">
 					<div className="text-center max-w-2xl mx-auto mb-16">
@@ -147,8 +146,6 @@ const PrimaryEducation = () => {
 								))}
 							</div>
 						</div>
-
-					
 					</div>
 				</div>
 			</section>

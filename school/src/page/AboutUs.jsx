@@ -23,7 +23,7 @@ const AboutUs = () => {
 
 	return (
 		<div className="min-h-screen bg-white font-sans text-slate-800">
-			{/* Hero Section */}
+	
 			<section className="relative py-10 px-6 bg-slate-50 overflow-hidden">
 				<div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
 					<div className="flex-1 text-center md:text-left">

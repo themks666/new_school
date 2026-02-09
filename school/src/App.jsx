@@ -20,43 +20,43 @@ const App = () => {
 			<div className="grow py-8">
 				<Routes>
 					<Route
-						path="/"
+						path="/new_school"
 						element={<Home></Home>}></Route>
 					<Route
-						path="/contact"
+						path="/new_school/contact"
 						element={<Contact></Contact>}></Route>
 					<Route
-						path="/programs"
+						path="/new_school/programs"
 						element={<Programs></Programs>}></Route>
 					<Route
-						path="/academics"
+						path="/new_school/academics"
 						element={<Academics></Academics>}></Route>
 					<Route
-						path="/about"
+						path="/new_school/about"
 						element={<AboutUs></AboutUs>}></Route>
 					<Route
-						path="/contact"
+						path="/new_school/contact"
 						element={<Contact></Contact>}></Route>
 					<Route
-						path="/early-year"
+						path="/new_school/early-year"
 						element={<EarlyPrograms></EarlyPrograms>}></Route>
 					<Route
-						path="/primary-education"
+						path="/new_school/primary-education"
 						element={<PrimaryEducation></PrimaryEducation>}></Route>
 					<Route
-						path="/secondary-education"
+						path="/new_school/secondary-education"
 						element={<Secondary></Secondary>}></Route>
 					<Route
-						path="/sports"
+						path="/new_school/sports"
 						element={<Sports></Sports>}></Route>
 					<Route
-						path="/middle-education"
+						path="/new_school/middle-education"
 						element={<Contact></Contact>}></Route>
 					<Route
-						path="/arts"
+						path="/new_school/arts"
 						element={<ArtsAndCreativity></ArtsAndCreativity>}></Route>
 					<Route
-						path="/gallery"
+						path="/new_school/gallery"
 						element={<Gallery></Gallery>}></Route>
 				</Routes>
 			</div>

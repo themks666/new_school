@@ -1,5 +1,5 @@
-import React from "react";
-import { useParams, Link } from "react-router-dom";
+
+import {  Link } from "react-router-dom";
 import Nursery from '/mursery.jpg'
 import {
 	CheckCircle2,
@@ -49,7 +49,7 @@ const ProgramDetail = () => {
 			{/* Navigation Breadcrumb */}
 			<div className="max-w-7xl mx-auto px-6 py-8">
 				<Link
-					to="/programs"
+					to="/new_school/programs"
 					className="inline-flex items-center text-indigo-600 font-semibold hover:gap-2 transition-all">
 					<ArrowLeft
 						size={20}
@@ -156,12 +156,11 @@ const ProgramDetail = () => {
 								Schedule a campus tour or speak with an admissions officer
 								today.
 							</p>
-              <Link to="/contact">
-                
-							<button className="w-full bg-white text-indigo-900 py-4 rounded-2xl font-bold hover:bg-indigo-50 transition-colors">
-								Enquire Now
-							</button>
-              </Link>
+							<Link to="/new_school/contact">
+								<button className="w-full bg-white text-indigo-900 py-4 rounded-2xl font-bold hover:bg-indigo-50 transition-colors">
+									Enquire Now
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Phone, Facebook, Mail, Rocket, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -26,7 +26,7 @@ const SchoolLandingPage = () => {
 					</p>
 
 					<div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-						<Link to="/contact">
+						<Link to="/new_school/contact">
 							<button className="w-full sm:w-auto group bg-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-indigo-700 transition-all flex items-center justify-center gap-2 shadow-xl shadow-indigo-100">
 								Join Us Today
 								<ArrowRight className="group-hover:translate-x-1 transition-transform" />

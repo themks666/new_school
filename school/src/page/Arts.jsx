@@ -39,7 +39,7 @@ const ArtsAndCreativity = () => {
 		<div className="bg-gradient-to-br from-white to-purple-50 min-h-screen font-sans">
 			<div className="max-w-7xl mx-auto px-6 pt-8">
 				<Link
-					to="/programs"
+					to="/new_school/programs"
 					className="inline-flex items-center text-slate-500 hover:text-pink-600 transition-colors font-medium">
 					<ArrowLeft
 						size={18}
@@ -69,7 +69,7 @@ const ArtsAndCreativity = () => {
 						<button className="bg-purple-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-purple-700 transition shadow-lg shadow-purple-100">
 							Explore Our Studios
 						</button>
-						<Link to="/gallery">
+						<Link to="/new_school/gallery">
 							<button className="border-2 border-purple-200 text-purple-700 px-8 py-4 rounded-xl font-bold hover:bg-purple-50 transition">
 								View Student Gallery
 							</button>

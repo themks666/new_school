@@ -23,7 +23,7 @@ import image7 from "/speech3.jpg"
 import { Link } from "react-router-dom";
 
 const Gallery = () => {
-	const [filter, setFilter] = useState("All");
+	
 	const photos = [
 		{
 			id: 1,
@@ -150,7 +150,7 @@ const Gallery = () => {
 	];
 	return (
 		<div className="min-h-screen bg-slate-50 font-sans">
-			{/* --- Header Section --- */}
+
 			<section className="bg-white px-6 border-b border-slate-100">
 				<div className="max-w-4xl mx-auto text-center">
 					<div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 text-indigo-600 rounded-full text-sm font-bold mb-6">

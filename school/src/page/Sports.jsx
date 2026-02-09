@@ -41,10 +41,9 @@ const Sports = () => {
 
 	return (
 		<div className="bg-white min-h-screen font-sans">
-		
 			<div className="max-w-7xl mx-auto px-6 pt-8">
 				<Link
-					to="/programs"
+					to="/new_school/programs"
 					className="inline-flex items-center text-slate-500 hover:text-orange-600 transition-colors font-medium">
 					<ArrowLeft
 						size={18}
@@ -54,7 +53,6 @@ const Sports = () => {
 				</Link>
 			</div>
 
-		
 			<header className="max-w-7xl mx-auto px-6 py-12 lg:py-20 flex flex-col lg:flex-row items-center gap-12">
 				<div className="lg:w-1/2">
 					<div className="inline-flex items-center gap-2 px-3 py-1 bg-orange-100 text-orange-700 rounded-md text-sm font-bold uppercase mb-6">
@@ -124,7 +122,6 @@ const Sports = () => {
 				</div>
 			</header>
 
-			
 			<section className="py-24 max-w-7xl mx-auto px-6">
 				<h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">
 					Find Your Sport
@@ -165,7 +162,6 @@ const Sports = () => {
 							Trials are held every semester for all major sports. Come show us
 							your talent.
 						</p>
-					
 					</div>
 					<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/20 blur-[100px]"></div>
 				</div>

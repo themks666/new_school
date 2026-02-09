@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import {
 	Palette,
@@ -7,7 +7,6 @@ import {
 	Trophy,
 	Music,
 	ArrowRight,
-	Calendar,
 	MessageSquare,
 } from "lucide-react";
 
@@ -21,7 +20,7 @@ const Programs = () => {
 			color: "border-blue-500",
 			bgColor: "bg-blue-50",
 			textColor: "text-blue-600",
-			link: "/early-year",
+			link: "/new_school/early-year",
 		},
 		{
 			title: "Primary Education",
@@ -31,7 +30,7 @@ const Programs = () => {
 			color: "border-emerald-500",
 			bgColor: "bg-emerald-50",
 			textColor: "text-emerald-600",
-			link: "/primary-education",
+			link: "/new_school/primary-education",
 		},
 		{
 			title: "Secondary Level",
@@ -41,7 +40,7 @@ const Programs = () => {
 			color: "border-indigo-600",
 			bgColor: "bg-indigo-50",
 			textColor: "text-indigo-600",
-			link: "/secondary-education",
+			link: "/new_school/secondary-education",
 		},
 		{
 			title: "Sports & Athletics",
@@ -51,7 +50,7 @@ const Programs = () => {
 			color: "border-amber-500",
 			bgColor: "bg-amber-50",
 			textColor: "text-amber-600",
-			link: "/sports",
+			link: "/new_school/sports",
 		},
 		{
 			title: "Arts & Creativity",
@@ -61,7 +60,7 @@ const Programs = () => {
 			color: "border-pink-500",
 			bgColor: "bg-pink-50",
 			textColor: "text-pink-600",
-			link: "/arts",
+			link: "/new_school/arts",
 		},
 	];
 
@@ -128,8 +127,7 @@ const Programs = () => {
 						</p>
 
 						<div className="flex flex-col sm:flex-row justify-center gap-6">
-				
-							<Link to='/contact'>
+							<Link to="/new_school/contact">
 								<button className="bg-emerald-500 hover:bg-emerald-600 text-white px-10 py-5 rounded-2xl font-black transition-all shadow-lg shadow-emerald-900/20 flex items-center justify-center gap-3 active:scale-95">
 									<MessageSquare size={22} /> Contact Us
 								</button>
